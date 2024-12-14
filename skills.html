@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills and Expertise</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f8bbd0, #fcb9ca); /* Light pink gradient background */
+            color: #333;
+        }
+
+        /* Skills Section Styling */
+        .skills {
+            background: linear-gradient(135deg, #ff80ab, #ff4081); /* Gradient background */
+            color: #fff; /* White text color */
+            padding: 50px 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 50px auto;
+            max-width: 800px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: translateY(-20px); /* Slight upward lift effect */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Hover Effect for Skills Section */
+        .skills:hover {
+            transform: translateY(0); /* Reset to normal position */
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+        }
+
+        /* Heading Styling */
+        .skills h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for impact */
+        }
+
+        /* List Styling */
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Skill Item Styling */
+        .skills ul li {
+            font-size: 1.2rem;
+            margin: 15px 0;
+            line-height: 1.5;
+            font-weight: bold;
+            color: #fff;
+            text-align: left;
+        }
+
+        /* Skill Name Styling */
+        .skills .skill-name {
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+
+        /* Animations for List Items */
+        .skills ul li {
+            opacity: 0;
+            transform: translateY(10px);
+            animation: fadeInUp 0.5s forwards;
+            animation-delay: 0.2s;
+        }
+
+        .skills ul li:nth-child(1) {
+            animation-delay: 0.3s;
+        }
+
+        .skills ul li:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+
+        /* Animation Keyframes */
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="skills">
+        <h2>Skills and Expertise</h2>
+        <ul>
+            <li><span class="skill-name">Programming Languages:</span> HTML, CSS, JavaScript.</li>
+            <li><span class="skill-name"> Interest in photo editing, you're building skills in programming, networking, and tools like Photoshop. By combining tech knowledge with design</li
+                
+        </ul>
+    </div>
+
+</body>
+</html>

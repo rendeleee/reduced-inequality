@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SDG Feature Section */
+#sdg-feature {
+    background-color: #ffe4e1; /* Soft pink background */
+    padding: 60px 0;
+    font-family: Arial, sans-serif;
+    color: #5c2a3e;
+    text-align: center;
+}
+
+/* Container */
+#sdg-feature .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Heading */
+#sdg-feature h2 {
+    font-family: "Garamond", serif;
+    font-size: 60px;
+    color: #f48fb1;
+    margin-bottom: 20px;
+}
+
+/* SDG Description */
+#sdg-feature .sdg-description {
+    font-family: "Garamond", serif;
+    font-size: 22px;
+    color: #5c2a3e;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+/* Align Section */
+#sdg-feature .align-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* SDG Image */
+#sdg-feature .sdg-image img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(255, 182, 193, 0.5);
+}
+
+/* Text Box Centered with Shadow */
+#sdg-feature .sdg-connection {
+    background: #f8bbd0;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(255, 182, 193, 0.6);
+    transition: 0.3s;
+}
+
+#sdg-feature .sdg-connection h3 {
+    font-size: 36px;
+    text-align: center;
+    color: #ec407a;
+    margin-bottom: 15px;
+}
+
+#sdg-feature .sdg-connection p {
+    font-size: 16px;
+    color: #5c2a3e;
+    line-height: 1.6;
+}
+
+/* Hover Effect for Boxes */
+#sdg-feature .sdg-connection:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 182, 193, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #sdg-feature .align-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #sdg-feature .sdg-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    #sdg-feature .sdg-connection {
+        padding: 15px;
+        height: auto;
+    }
+}

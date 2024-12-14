@@ -1,0 +1,97 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fce4ec, #ffe0f2);
+    color: #333; /* Darker text color for better readability */
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section Styling */
+#contact {
+    background: linear-gradient(90deg, #ff4081, #f8bbd0);
+    padding: 70px 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px); /* Added slight upward shift */
+}
+
+#contact h2 {
+    font-size: 2.4rem;
+    color: #f85197; /* White color for better visibility */
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for impact */
+}
+
+#contact p {
+    font-size: 1.1rem;
+    color: #f0518e; /* Light text color */
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Social Media Links Styling */
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact ul li {
+    margin: 15px 0;
+}
+
+#contact ul li a {
+    font-size: 1.2rem; /* Slightly larger text for better readability */
+    color: #f199c2; /* Light text color for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#contact ul li a:hover {
+    color: #ff80ab; /* Slight color change on hover for emphasis */
+    transform: translateX(5px); /* Added slight horizontal movement */
+    text-decoration: underline;
+}
+
+/* Button Styling */
+#contact .btn-contact {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 40px;
+    background-color: #ff4081;
+    color: #fff; /* White text for the button */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+#contact .btn-contact:hover {
+    background-color: #ff80ab;
+    transform: translateY(-3px); /* Slight lift effect */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+#contact .btn-contact:active {
+    transform: translateY(1px); /* Pressed effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
